@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		428DEF6B6AE5B68CD4805D81 /* Pods_LottieAnimationTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2D2454B1B0345044E9974 /* Pods_LottieAnimationTest.framework */; };
+		EE05B3ED1E5F5E990071232E /* buttonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = EE05B3EA1E5F5E990071232E /* buttonOff.json */; };
+		EE05B3EE1E5F5E990071232E /* buttonOn.json in Resources */ = {isa = PBXBuildFile; fileRef = EE05B3EB1E5F5E990071232E /* buttonOn.json */; };
+		EE05B3EF1E5F5E990071232E /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = EE05B3EC1E5F5E990071232E /* PinJump.json */; };
 		EEAEB91A1E5CD10A00A369AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEB9191E5CD10A00A369AA /* AppDelegate.swift */; };
 		EEAEB91C1E5CD10A00A369AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEB91B1E5CD10A00A369AA /* ViewController.swift */; };
 		EEAEB91F1E5CD10A00A369AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAEB91D1E5CD10A00A369AA /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 		82948F96891897BC0C512C84 /* Pods-LottieAnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationTest/Pods-LottieAnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
 		85D2D2454B1B0345044E9974 /* Pods_LottieAnimationTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2E3D04EB0F5B555B6AD084 /* Pods-LottieAnimationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationTest/Pods-LottieAnimationTest.release.xcconfig"; sourceTree = "<group>"; };
+		EE05B3EA1E5F5E990071232E /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOff.json; sourceTree = "<group>"; };
+		EE05B3EB1E5F5E990071232E /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOn.json; sourceTree = "<group>"; };
+		EE05B3EC1E5F5E990071232E /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
 		EEAEB9161E5CD10A00A369AA /* LottieAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAEB9191E5CD10A00A369AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEAEB91B1E5CD10A00A369AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE05B3F01E5F5E9F0071232E /* AnimationData */ = {
+			isa = PBXGroup;
+			children = (
+				EE05B3EA1E5F5E990071232E /* buttonOff.json */,
+				EE05B3EB1E5F5E990071232E /* buttonOn.json */,
+				EE05B3EC1E5F5E990071232E /* PinJump.json */,
+			);
+			name = AnimationData;
+			sourceTree = "<group>";
+		};
 		EEAEB90D1E5CD10900A369AA = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +94,7 @@
 		EEAEB9181E5CD10A00A369AA /* LottieAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE05B3F01E5F5E9F0071232E /* AnimationData */,
 				EEAEB9191E5CD10A00A369AA /* AppDelegate.swift */,
 				EEAEB91B1E5CD10A00A369AA /* ViewController.swift */,
 				EEAEB91D1E5CD10A00A369AA /* Main.storyboard */,
@@ -123,7 +140,7 @@
 				TargetAttributes = {
 					EEAEB9151E5CD10900A369AA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GU388YC6S7;
+						DevelopmentTeam = WJ2494P78F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,8 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAEB9241E5CD10A00A369AA /* LaunchScreen.storyboard in Resources */,
+				EE05B3ED1E5F5E990071232E /* buttonOff.json in Resources */,
 				EEAEB9211E5CD10A00A369AA /* Assets.xcassets in Resources */,
+				EE05B3EE1E5F5E990071232E /* buttonOn.json in Resources */,
 				EEAEB91F1E5CD10A00A369AA /* Main.storyboard in Resources */,
+				EE05B3EF1E5F5E990071232E /* PinJump.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,10 +355,12 @@
 			baseConfigurationReference = 82948F96891897BC0C512C84 /* Pods-LottieAnimationTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GU388YC6S7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WJ2494P78F;
 				INFOPLIST_FILE = LottieAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.LottieAnimationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.LottieAnimationTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -349,10 +371,12 @@
 			baseConfigurationReference = DA2E3D04EB0F5B555B6AD084 /* Pods-LottieAnimationTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GU388YC6S7;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WJ2494P78F;
 				INFOPLIST_FILE = LottieAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.LottieAnimationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.LottieAnimationTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -377,6 +401,7 @@
 				EEAEB92A1E5CD10A00A369AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
